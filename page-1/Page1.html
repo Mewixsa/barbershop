@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borodinski</title>
+    <link rel="stylesheet" href="..//page-1/style-1.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <button class="nav_btts mainbtt">
+            ГЛАВНЯ
+        </button>
+        <button class="nav_btts">
+            <a href="#news">НОВОСТИ</a>
+        </button>
+        <button class="nav_btts">
+            ПРАЙС-ЛИСТ
+        </button>
+        <button class="nav_btts" >
+           <a href="..//page-2/index.html"> МАГАЗИН</a>
+        </button>
+        <button class="nav_btts">
+            <a href="#cont_inf">КОНТАКТЫ</a>
+        </button>
+        <button class="nav_btts login">
+            <img src="./img/login.png" class="login-img">
+            <span id="login_text"> ВХОД</span>
+        </button>
+    </nav>
+    <img src="./img/index-logo.png" class="index-logo">
+    <div class="adventages">
+        <div class="adventage">
+            <h3>БЫСТРО</h3>
+            <div class="quard"></div>
+            <p class="adv_p">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ - СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ
+                БЫСТРОЙ СТРИЖКИ - МИНУТКА </p>
+        </div>
+        <div class="adventage">
+            <h3>КРУТО</h3>
+            <div class="quard"></div>
+            <p class="adv_p">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ
+                СЛУЧАЕ ВНЕШНЕ.</p>
+        </div>
+        <div class="adventage">
+            <h3>ДОРОГО</h3>
+            <div class="quard"></div>
+            <p class="adv_p">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ
+                ДАЁТ ОПРЕДЕЛЁННЫЙ СТАТУС?</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="main_h1"  id="news">
+            <h2>НОВОСТИ</h2>
+            <h2>ФОТОГАЛЕРЕЯ</h2>
+        </div>
+
+        <div class="main_h2">
+            <div class="h2">
+                <p class="p_h2">
+                    НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ <br>
+                    <br>
+                    <b> 11 января</b>
+                    <br>
+                    <br>
+                    В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ
+                    НАШИ СТРОЙНЫЕ РЯДЫ
+                    <br>
+                    <br>
+                    <b>18 января</b>
+                </p>
+            </div>
+            <div class="img_h2">
+                <img src="./img/Layer 21.png">
+            </div>
+        </div>
+
+        <div class="main_b3">
+            <button class="main1_btt btt ">
+                ВСЕ НОВОСТИ
+            </button>
+            <button class="main1_btt back btt">
+                НАЗАД
+            </button>
+            <button class="main1_btt btt">
+                ВПЕРЁД
+            </button>
+        </div>
+    </main>
+    <main class="maim-inf">
+        <div class="contacts">
+            <h2 id="cont_inf">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+            <p class="cont_p">БАРБЕРШОП "БОРОДИНСКИЙ"</p>
+            <p class="cont_p">АДРЕС: Г.САНКТ-ПЕТЕРБУРГ Б.КОНЮШЕННАЯ Д.19/8</p>
+            <p class="cont_p">ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            <br>
+            <p class="cont_p">ВРЕМЯ РАБОТЫ:</p>
+            <p class="cont_p">ПН-ПТ: С 10:00 ДО 22:00</p>
+            <p class="cont_p">СБ-ВС: С 10:00 ДО 19:00</p>
+            <button class="main2_btt btt">
+                как проехать
+            </button>
+            <button class="main2_btt obr btt">
+                обратная свзь
+            </button>
+        </div>
+        <div class="reg">
+            <h2>ЗАПИСАТЬСЯ</h2>
+            <p class="cont_p">УКАЖИТЕ ЖЕЛАУМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+            <form class="register" action="..//page-1/base.php" method="POST" enctype="text/plain">
+                <div class="form-block">
+                    <p>ДАТА</p>
+                    <input class="inp" placeholder="01.01.2023" name="date" type="date" required>
+                </div>
+                <div class="form-block">
+                    <p>ВРЕМЯ</p>
+                    <input class="inp" placeholder="10:00" name="time"  type="time" required>
+                </div>
+                <div class="form-block">
+                    <p>ВАШЕ ИМЯ</p>
+                    <input class="inp" placeholder="БОРОДА" name="name"  type="text"required>
+                </div>
+                <div class="form-block">
+                    <p>ТЕЛЕФОН</p>
+                    <input class="inp" placeholder="+7 123 456-78-90" name="number"  type="text" required>
+                </div>
+                <input class="sub-btt btt" type="submit" value="ОТПРАВИТЬ">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="ft_inf f_c">
+            <p>БАРБЕРШОП "БОРОДИНСКИЙ"</p>
+            <p>АДРЕС: Г.САНКТ-ПЕТЕРБУРГ Б.КОНЮШЕННАЯ Д.19/8</p>
+            <p><u>КАК НАС НАЙТИ?</u></p>
+            <p>ТЕЛЕФОН: +7 (495) 666-02-66</p>
+        </div>
+        <div class="f_c">
+            <p style="font-size: 10px;">ДАВАЙТЕ ДРУЖИТЬ!</p>
+            <img src="./img/vk.png" class="img_footer">
+            <img src="./img/25305.png" class="img_footer">
+            <img src="./img/1640846929_20-abrakadabra-fun-p-znachok-instagram-chb-49.png" class="img_footer">
+        </div>
+        <div class="f_c">
+            <p style="font-size: 10px;">РАЗРАБОТАНО:</p>
+            <div class="child">учеником</div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+    <script src="..//main.js"></script>
+    
+</body>
+
+</html>

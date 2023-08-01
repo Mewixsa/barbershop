@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/Layer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: FRANKLIN GOTHIC MEDIUM;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    padding: 0% 20%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.login-img {
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+}
+
+.login {
+    margin-left: auto;
+}
+
+.nav_btts {
+    color: white;
+    background-color: black;
+    border: 0;
+    height: 100%;
+    padding: 2%;
+    text-decoration: none;
+    transition-duration : .3s;
+}
+
+.nav_btts:hover{
+    background-color: rgba(128, 128, 128, 0.429);
+}
+
+.index-logo {
+    margin: 40px auto;
+    width: 300px;
+}
+
+.adventages {
+    gap: 20px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 60%;
+    align-items: cente;
+}
+
+.adventage {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.quard {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    rotate: 45deg;
+    margin: auto;
+}
+
+.adv_p {
+    font-size: small;
+}
+
+main {
+    width: 60%;
+    color: black;
+    background-color: white;
+    margin: auto;
+    padding: 2% 3%;
+    margin-top: 30px;
+}
+
+.main_h1 {
+    display: flex;
+    height: 60px;
+    padding: 0 20px;
+    gap: 46%;
+}
+
+.h2 {
+    width: 45%;
+    text-align: start;
+    padding-left: 20px;
+}
+
+.main_h2{
+    display: flex;
+}
+
+.img_h2{
+    width: 45%;
+    margin-left: auto;
+}
+
+.p_h2{
+    margin: 0%;
+    font-size: small;
+}
+
+.main_b3{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    padding-right: 35px;
+}
+
+.main1_btt{
+    color: white;
+    background-color: black;
+    border: 0;  
+    padding: 15px 46px;
+    text-decoration: none;
+    font-family: FRANKLIN GOTHIC MEDIUM;
+}
+
+.back{
+    margin-left: auto;
+}
+
+.contacts{
+    text-align: start;
+    padding-left: 20px;
+    width: 45%;
+}
+
+.cont_p{
+    font-size: small;
+}
+
+.main2_btt{
+    color: white;
+    background-color: black;
+    border: 0;  
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family: FRANKLIN GOTHIC MEDIUM;
+    font-size: medium;
+}
+
+.obr{
+    margin-left:10px;
+}
+
+.maim-inf{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.reg{
+    width: 45%;
+    margin-left: auto;
+    text-align: start;
+}
+.register{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.form-block{
+    width: 45%;
+}
+
+.inp{
+    border: 3px solid black;
+    width: 150px;
+    height: 40px;
+    padding: 15px;
+}
+
+.sub-btt{
+    width: 95%;
+    color: white;
+    background-color: black;
+    border: 0;  
+    text-decoration: none;
+    font-family: FRANKLIN GOTHIC MEDIUM;
+    margin-top: 20px;
+    padding: 15px 30px;
+    
+}
+
+footer{
+    display: flex;
+    align-items: start;
+    color: white;
+    background-color: rgb(35, 35, 35);
+    padding: 2% 20% 1% 20%;
+    justify-content: space-between;
+}
+
+.ft_inf{
+    text-align: start !important;
+    font-size: 10px;
+}
+
+.img_footer{
+    background-color: black;
+    width: 30px;
+    
+}
+
+.child{
+    font-size: 12px;
+    background-color: black;
+    width: 30%;
+    padding: 7px 10px;
+    margin: auto;
+}
+
+.f_c{
+    width: 33%;
+    text-align: center;
+}
+
+.btt{
+    transition-duration: .5s;
+}
+
+.btt:active{
+    background-color: rgb(143, 77, 20);
+}
+.btt:hover{
+    background-color: rgb(143, 77, 20);
+}

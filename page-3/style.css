@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url("/page-1/img/Layer.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: FRANKLIN GOTHIC MEDIUM;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    padding: 0% 20%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.login {
+    margin-left: auto;
+}
+
+.nav_btts {
+    color: white;
+    background-color: black;
+    border: 0;
+    height: 100%;
+    padding: 2%;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_btts:hover {
+    background-color: rgba(128, 128, 128, 0.429);
+}
+
+.login-img {
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+}
+
+.shop {
+    border-bottom: 3px solid white;
+}
+
+main {
+    width: 70%;
+    background-color: white;
+    color: black;
+    padding: 2% 8% 5% 8%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.invisible_text {
+    color: rgba(128, 128, 128, 0.741);
+}
+
+.images {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.big {
+    width: 100%;
+    box-shadow: 1px 2px 10px rgb(154, 154, 154);
+}
+
+.small{
+     width: 30%;
+     box-shadow: 1px 2px 10px rgb(154, 154, 154);
+}
+
+footer{
+    display: flex;
+    align-items: start;
+    color: white;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(35, 35, 35), rgb(35, 35, 35), rgb(35, 35, 35), rgb(35, 35, 35));
+    padding: 2% 15% 1% 15%;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.ft_inf{
+    text-align: start !important;
+    font-size: 10px;
+}
+
+.f_c{
+    width: 33%;
+    text-align: center;
+}
+
+.img_footer{
+    background-color: black;
+    width: 30px;
+    
+}
+
+.child{
+    font-size: 12px;
+    background-color: black;
+    width: 30%;
+    padding: 7px 10px;
+    margin: auto;
+}
+
+.text{
+    width: 50%;
+    padding-left:10%;
+}
+
+.content{
+    display: flex;
+}
+
+.p_text{
+    font-size: 15px;
+}
+
+.price-btt{
+    margin: 0 !important;
+    width: 40% !important;
+    padding: 15px 10px;
+}
+
+.price{
+    background-color: #c5c5c5;   
+    padding: 15px 10px;
+    margin: 0;
+    width: max-content;
+    width: 60% !important;
+    text-align: center;
+}
+
+.btt {
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    border: 0;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-family: FRANKLIN GOTHIC MEDIUM;
+    font-size: medium;
+    transition-duration: .5s;
+}
+
+.btt:active {
+    background-color: rgb(143, 77, 20);
+}
+
+.btt:hover {
+    background-color: rgb(143, 77, 20);
+}

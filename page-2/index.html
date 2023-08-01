@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borodinski</title>
+    <link rel="stylesheet" href="../page-2/style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="./img/logo.png" alt="">
+        <button class="nav_btts">
+            <a href="..//page-1/Page1.html">ГЛАВНАЯ</a>
+        </button>
+        <button class="nav_btts">
+            НОВОСТИ
+        </button>
+        <button class="nav_btts">
+            ПРАЙС-ЛИСТ
+        </button>
+        <button class="nav_btts shop">
+            МАГАЗИН
+        </button>
+        <button class="nav_btts">
+            КОНТАКТЫ
+        </button>
+        <button class="nav_btts login">
+            <img src="..//page-1/img/login.png" class="login-img">
+            <span id="login_text"> ВХОД</span>
+        </button>
+    </nav>
+    <main>
+        <h2>СРЕДСТВА ДЛЯ УХОДА</h2>
+        <p class="p_p">
+            <b>ГЛАВНЯ</b>
+            <img src="..//page-1/img/Shape 1 copy.png" alt="" srcset="">
+            <b>МАГАЗИН</b>
+            <img src="..//page-1/img/Shape 1 copy.png" alt="" srcset="">
+            <b class="invisible_text">СРЕДСТВА ДЛЯ УХОДА</b>
+        </p>
+        <div class="content">
+            <div class="left_tools">
+                <h3>ПРОИЗВОДИТЕЛИ:</h3>
+                <input type="checkbox" id="checkbox-id1" checked><label for="checkbox-id1">Baxter of
+                    California</label><br><br>
+                <input type="checkbox" id="checkbox-id2" checked><label for="checkbox-id2">Mr Natty</label><br><br>
+                <input type="checkbox" id="checkbox-id3"><label for="checkbox-id3">Suavecito</label><br><br>
+                <input type="checkbox" id="checkbox-id4" checked><label for="checkbox-id4">Malin+Goetz</label><br><br>
+                <input type="checkbox" id="checkbox-id5"><label for="checkbox-id5">Murrays</label><br><br>
+                <input type="checkbox" id="checkbox-id6" checked><label for="checkbox-id6">American Crew</label><br><br>
+
+                <h3>ГРУППЫ ТОВАРОВ:</h3>
+                <input type="radio" name="items" id="radio1"><label for="radio1">БРИТВ. ПРИНАДЛЕЖНОСТИ</label> <br><br>
+                <input type="radio" name="items" checked id="radio2"><label for="radio2">СРЕДСТВА ДЛЯ
+                    УХОДА</label><br><br>
+                <input type="radio" name="items" id="radio3"><label for="radio3">АКСЕССУАРЫ</label><br><br>
+
+                <button class=" btt ">
+                    ПОКАЗАТЬ
+                </button>
+            </div>
+            <div id="catalog" class="catalog">
+                <div class="card">
+                    <img class="card_img" src="./img/Layer 38.png" id="card-img1">
+                    <p id="card-text1">Набор для путешествий «Baxter of California»</p>
+                    <div style="display: flex;">
+                        <p class="price" id="price1">
+                            2 900 ₽
+                        </p>
+                        <button class="btt price-btt">
+                           <a href="..//page-3/index.html"> КУПИТЬ</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="./img/Layer 30.png" id="card-img2">
+                    <p id="card-text2">Увлажняющий кондиционер  «Baxter of California»</p>
+                    <div style="display: flex;">
+                        <p class="price" id="price2">
+                            750 ₽
+                        </p>
+                        <button class="btt price-btt">
+                            КУПИТЬ
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="./img/Layer 39.png" id="card-img3">
+                    <p id="card-text3">Гель для волос <br> «SUAVECITO»</p>
+                    <div style="display: flex;">
+                        <p class="price" id="price3">
+                            290 ₽
+                        </p>
+                        <button class="btt price-btt">
+                            КУПИТЬ
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="./img/Layer 32.png" id="card-img4">
+                    <p id="card-text4">Глина для укладки волос  «American crew»</p>
+                    <div style="display: flex;">
+                        <p class="price" id="price4">
+                            500 ₽
+                        </p>
+                        <button class="btt price-btt">
+                            КУПИТЬ
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="./img/Layer 33.png" id="card-img5">
+                    <p id="card-text5">Гель для волос «AMERICAN CREW»</p>
+                    <div style="display: flex;">
+                        <p class="price" id="price5">
+                            300 ₽
+                        </p>
+                        <button class="btt price-btt">
+                            КУПИТЬ
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="./img/Layer 42.png" id="card-img6">
+                    <p id="card-text6">Набор для бритья «Baxter of California»</p>
+                    <div style="display: flex;">
+                        <p class="price" id="price6">
+                            3 900 ₽
+                        </p>
+                        <button class="btt price-btt">
+                            КУПИТЬ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination" id="pag">            
+                <button class="pag now" id="pag1" onclick="click1()">1</button>
+                <button class="pag " id="pag2" onclick="click2()">2</button>   
+                <button class="pag" id="pag2" onclick="click3()">3</button>   
+                <button class="pag" id="pag2" onclick="click4()">4</button>   
+        </div>
+    </main>
+    <footer>
+        <div class="ft_inf f_c">
+            <p>БАРБЕРШОП "БОРОДИНСКИЙ"</p>
+            <p>АДРЕС: Г.САНКТ-ПЕТЕРБУРГ Б.КОНЮШЕННАЯ Д.19/8</p>
+            <p><u>КАК НАС НАЙТИ?</u></p>
+            <p>ТЕЛЕФОН: +7 (495) 666-02-66</p>
+        </div>
+        <div class="f_c">
+            <p style="font-size: 10px;">ДАВАЙТЕ ДРУЖИТЬ!</p>
+            <img src="..//page-1/img/vk.png" class="img_footer">
+            <img src="..//page-1/img/25305.png" class="img_footer">
+            <img src="..//page-1/img/1640846929_20-abrakadabra-fun-p-znachok-instagram-chb-49.png" class="img_footer">
+        </div>
+        <div class="f_c">
+            <p style="font-size: 10px;">РАЗРАБОТАНО:</p>
+            <div class="child">учеником</div>
+        </div>
+    </footer>
+
+<script src="./main.js"></script>
+<script src="..//main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/page-1/img/Layer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: FRANKLIN GOTHIC MEDIUM;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    padding: 0% 20%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.login {
+    margin-left: auto;
+}
+
+.nav_btts {
+    color: white;
+    background-color: black;
+    border: 0;
+    height: 100%;
+    padding: 2%;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_btts:hover {
+    background-color: rgba(128, 128, 128, 0.429);
+}
+
+.login-img {
+    width: 10px;
+    height: 10px;
+    margin-left: auto;
+}
+
+.shop {
+    border-bottom: 3px solid white;
+}
+
+main {
+    width: 90%;
+    background-color: white;
+    color: black;
+    padding: 2% 4% 0% 4% ;
+    margin: auto;
+    margin-top: 5%;
+    padding-bottom: .1px;
+    margin-bottom: 3%;
+}
+
+.invisible_text {
+    color: rgba(128, 128, 128, 0.741);
+}
+
+.p_p {
+    margin: 0;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: #000;
+    cursor: default;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+label:before {
+    content: " ";
+    color: #000;
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    text-indent: 0px;
+    width: 20px;
+    height: 20px;
+    background: #FFF;
+    border: 1px solid #e3e3e3;
+    border-image: initial;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+
+input:checked+label:before {
+    content: "×";
+}
+
+input:disabled+label:before {
+    background: #eee;
+    color: #aaa;
+}
+
+.btt {
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    border: 0;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family: FRANKLIN GOTHIC MEDIUM;
+    font-size: medium;
+    transition-duration: .5s;
+}
+
+.price{
+    background-color: #c5c5c5;   
+    padding: 15px 10px;
+    margin: 0;
+    width: max-content;
+    width: 60% !important;
+    text-align: center;
+}
+
+.left_tools {
+    width: 30%;
+}
+
+.btt:active {
+    background-color: rgb(143, 77, 20);
+}
+
+.btt:hover {
+    background-color: rgb(143, 77, 20);
+}
+
+footer{
+    display: flex;
+    align-items: start;
+    color: white;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(35, 35, 35), rgb(35, 35, 35), rgb(35, 35, 35), rgb(35, 35, 35));
+    padding: 2% 10% 1% 10%;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.ft_inf{
+    text-align: start !important;
+    font-size: 10px;
+}
+
+.f_c{
+    width: 33%;
+    text-align: center;
+}
+
+.child{
+    font-size: 12px;
+    background-color: black;
+    width: 30%;
+    padding: 7px 10px;
+    margin: auto;
+}
+
+.img_footer{
+    background-color: black;
+    width: 30px;
+    
+}
+
+.catalog{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: #000;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.card{
+    width: 30%;
+    box-shadow: 1px 10px 10px rgb(154, 154, 154);
+    padding: 2%;
+    height: max-content;
+    height: 275px;
+}
+
+.content{
+    display: flex;
+}
+
+.card_img{
+    width: 170px;
+}
+
+.price-btt{
+    margin: 0 !important;
+    width: 40% !important;
+    padding: 15px 10px;
+}
+
+.pagination{
+    display: flex;
+    gap: 10px;
+    margin: 50px 31%;
+}
+
+.pag{
+    width: 40px;
+    height: 40px;
+    background-color: #0a0000;
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+.now{
+    background-color: white;
+    color: black;
+}
+
+.pag:hover{
+    background-color: rgb(143, 77, 20);
+}
